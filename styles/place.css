@@ -1,0 +1,147 @@
+:root {
+    --font-main: 'Open Sans', sans-serif;
+    --color-bg: #f8f9fa;
+    --color-text: #333;
+    --color-primary: #EF3340;
+    --color-secondary: #FFD100;
+    --color-accent: #0087ca;
+    --color-box: rgba(220, 215, 215, 0.795);
+    --shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    --padding-main: 20px;
+}
+
+body {
+    font-family: var(--font-main);
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+}
+
+header, footer {
+    text-align: center;
+    background: var(--color-primary);
+    color: white;
+    padding: 10px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.hero img {
+    width: 100%;
+    height: screen;
+    object-fit: cover;
+    padding-top: 14px;
+    background: var(--color-secondary);
+    position: relative;
+}
+
+.data-container {
+    background-color: var(--color-box);
+    box-shadow: var(--shadow);
+    padding: var(--padding-main);
+    width: 250px;
+    position: absolute;
+    top: 160px;
+    left: 5%;
+  }
+  
+  .data-header {
+    background-color: var(--color-accent);
+    color: var(--color-bg);
+    padding: 10px;
+    padding-left: 20px;
+    margin-top: -10px; 
+    margin-left: -30px; 
+    width: calc(100% - 40px); 
+  }
+  .data-content ul{
+    margin: 0;
+    padding: 0;
+   
+  }
+  .data-content li {
+    margin: 5px 0;
+    padding-left: 10px;
+    list-style: none;
+    text-align:start;
+  }
+
+  .meteo-info{
+    position: absolute;
+    top: 350px;
+    left: 900px;
+  }
+
+  .meteo-info h2:after{
+    content: '⛅';
+    padding-left: 40px;
+  }
+
+
+@media  screen and (max-width:1200px) {
+    
+    .data-container {
+        background-color: var(--color-box);
+        box-shadow: var(--shadow);
+        padding: var(--padding-main);
+        width: 250px;
+        position: absolute;
+        top: 160px;
+        left: 5%;
+      }
+
+      .meteo-info{
+        position: absolute;
+        top: 350px;
+        left: 550px;
+      } 
+}
+
+
+@media (max-width: 768px) {
+    .data-container {
+        background: inherit;
+        position: relative;
+        top: auto;
+        left: auto;
+        width: 90%;
+        margin: 20px auto;
+        text-align: center;
+        box-shadow: none;
+    }
+
+    .meteo-info {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+        text-align: center;
+        margin-top: 20px;
+        border-top: 1px solid var(--color-accent);
+    }
+
+    .data-header {
+        background-color: inherit;
+        color: var(--shadow);
+        padding: 10px;
+        padding-left: 20px;
+        margin-top: -10px; 
+        margin-left: -30px; 
+        width: calc(100% - 40px); 
+      }
+      .data-content ul{
+        margin: 0;
+        padding: 0;
+       
+      }
+      .data-content li {
+        margin: 5px 0;
+        padding-left: 10px;
+        list-style: none;
+        text-align:center;
+      }
+}
