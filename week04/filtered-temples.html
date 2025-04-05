@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 – Responsive Menu - Glody Mafo</title>
+    <meta name="description" content="WDD 131 – Learning about responsive menu">
+    <meta name="author" content="Glody Mafo">
+    <link rel="stylesheet" href="styles/temples.css">
+    <link rel="stylesheet" href="styles/temples-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    
+</head>
+
+<body>
+    <header>
+        <h1>Temple <span class="title">Album.</span></h1>
+        <a id="menu" href="#"></a>
+        <nav>
+            <ul class="navigation">
+                <li><a  onclick="filterTemples('all')">Home</a></li>
+                <li><a  onclick="filterTemples('old')">Old</a></li>
+                <li><a  onclick="filterTemples('new')">New</a></li>
+                <li><a  onclick="filterTemples('large')">Large</a></li>
+                <li><a  onclick="filterTemples('small')">Small</a></li>
+           
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+       <h1>Home</h1>
+       <div class="temples" id="temples-container">
+       <!-- <figure>
+        <img src="images/kinshasa_temple_exterior.jpeg" alt="kinshasa_temple_exterior">
+        <figcaption>Kinshasa Temple</figcaption>
+       </figure>
+       <figure>
+        <img src="images/kinshasa_temple_exterior.jpeg" alt="kinshasa_temple_exterior">
+        <figcaption>Kinshasa Temple</figcaption>
+       </figure>
+       <figure>
+        <img src="images/kinshasa_temple_exterior.jpeg" alt="kinshasa_temple_exterior">
+        <figcaption>Kinshasa Temple</figcaption>
+       </figure>
+       <figure>
+        <img src="images/kinshasa_temple_exterior.jpeg" alt="kinshasa_temple_exterior">
+        <figcaption>Kinshasa Temple</figcaption>
+       </figure>
+       <figure>
+        <img src="images/kinshasa_temple_exterior.jpeg" alt="kinshasa_temple_exterior">
+        <figcaption>Kinshasa Temple</figcaption>
+       </figure>
+       <figure>
+        <img src="images/kinshasa_temple_exterior.jpeg" alt="kinshasa_temple_exterior">
+        <figcaption>Kinshasa Temple</figcaption>
+       </figure>
+       <figure>
+        <img src="images/kinshasa_temple_exterior.jpeg" alt="kinshasa_temple_exterior">
+        <figcaption>Kinshasa Temple</figcaption>
+       </figure>
+       <figure>
+        <img src="images/kinshasa_temple_exterior.jpeg" alt="kinshasa_temple_exterior">
+        <figcaption>Kinshasa Temple</figcaption>
+       </figure>
+       <figure>
+        <img src="images/kinshasa_temple_exterior.jpeg" alt="kinshasa_temple_exterior">
+        <figcaption>Kinshasa Temple</figcaption>
+       </figure> -->
+    </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Goldy Mafo Kisanga, DR Congo.</p>
+        <p id="lastModified"></p>
+    </footer>
+<script src="scripts/getdates.js"></script>
+    <script src="scripts/temples.js"></script>
+</body>
+
+</html>
