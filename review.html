@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Review Submitted</title>
+  <link rel="stylesheet" href="styles/form.css" />
+</head>
+<body>
+  <main>
+    <h1>Thank You!</h1>
+    <p>Your review has been submitted successfully.</p>
+    <p>You have submitted <span id="reviewCount"></span> review(s).</p>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="currentyear"></span> Goldy Mafo Kisanga, DR Congo.</p>
+    <p id="lastModified"></p>
+</footer>
+
+<script src="scripts/getdates.js"></script>
+
+  <script>
+    const count = localStorage.getItem("reviewCount");
+    const newCount = count ? parseInt(count) + 1 : 1;
+    localStorage.setItem("reviewCount", newCount);
+    document.getElementById("reviewCount").textContent = newCount;
+  </script>
+</body>
+</html>
