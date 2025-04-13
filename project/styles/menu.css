@@ -1,0 +1,39 @@
+#menu {
+	display: block;
+	font-size: 2rem;
+	font-weight: 700;
+	text-decoration: none;
+	color: #d4a373;
+	background: #ffffff;
+}
+
+#menu:hover{
+    color:#5a3e2b;
+}
+
+#menu::before {
+	content: "≡";
+}
+
+#menu.show::before {
+	content: "X";
+}
+
+@media only screen and (min-width: 720px) {
+	.logo{
+		border-left: none;
+	}
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; 
+		flex: 1 1 100%;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	#menu {
+		display: none;
+	}
+}

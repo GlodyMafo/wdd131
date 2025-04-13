@@ -1,0 +1,32 @@
+[
+    {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Velours_du_Kasa%C3%AF.jpg/800px-Velours_du_Kasa%C3%AF.jpg",
+      "title": "Kasai Weaving",
+      "description": "Natural fiber rug, Luba geometric pattern.",
+      "artisan": "Maman Elise",
+      "contact": "/contact?artisan=maman-elise"
+    },
+    {
+      "image": "https://www.antiquites-arts.fr/wp-content/uploads/2024/01/IMG_7412-2.jpg",
+      "title": "Wenge Wood Sculpture",
+      "description": "Hand-carved royal couple.",
+      "artisan": "Atelier Mwene",
+      "contact": "/contact?artisan=atelier-mwene"
+    },
+    {
+      "image": "https://i.etsystatic.com/32183553/r/il/21a6ef/3907770577/il_600x600.3907770577_2ibp.jpg",
+      "title": "Mongo Beaded Necklace",
+      "description": "Recycled beads, worn during ceremonies.",
+      "artisan": "Bijouterie Londo",
+      "contact": "/contact?artisan=bijouterie-londo"
+    },
+    {
+      "image": "https://i.etsystatic.com/43204894/r/il/6f72b1/5095490533/il_1588xN.5095490533_b31o.jpg",
+      "title": "Clay Pot from Nsalasani",
+      "description": "Traditional fire-baked pottery.",
+      "artisan": "Collectif Maboko",
+      "contact": "/contact?artisan=collectif-maboko"
+    }
+  ]
+  
+  

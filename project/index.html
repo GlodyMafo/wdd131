@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kiese - Home</title>
+    <link rel="stylesheet" href="styles/home.css" />
+    <link rel="stylesheet" href="styles/menu-large.css" />
+    <link rel="stylesheet" href="styles/menu.css" />
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.svg" alt="logo" class="logo" />
+        <a id="menu" href="#"></a>
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <picture>
+                <source media="(min-width: 1000px)" srcset="images/hero-large.webp" />
+                <source media="(min-width: 500px)" srcset="images/hero-medium.webp" />
+                <img src="images/hero-low.webp" alt="Okapi" width="250" height="500" />
+            </picture>
+            <div class="hero-content">
+                <div class="presentation">
+                    <h1>Kiese.</h1>
+                    <p>"Kiese" means joy in Kikongo. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+        
+                <div class="event">
+                    <div class="event-content">
+                        <h2>Special Event</h2>
+                        <img src="https://img.freepik.com/photos-gratuite/portrait-homme-tresses-vue-laterale_23-2151428278.jpg"
+                            alt="Event" />
+                        <p>Join us for an event highlighting the richness of African cultures.</p>
+                    </div>
+                    <a href="#">Join</a>
+                </div>
+            </div>
+        </section>
+        
+        <section class="feature">
+            <div class="feature-section">
+                <div class="feature-box">
+                    <h2>Artist of the Week</h2>
+                    <p id="artist-description">Loading...</p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+                <img id="artist-image" src="" alt="Artist's image" loading="lazy" />
+            </div>
+            <img id="artwork-image" src="" alt="Artwork image" loading="lazy" class="feature-art" />
+        </section>
+        
+        <section class="more-items">
+            <h2>Art Gallery <span class="more-link">More...</span></h2>
+            <hr />
+            <div class="Art-Gal" id="art-gallery"></div>
+
+            <div class="Art-act">
+                <p>Explore more masterpieces in our gallery dedicated to contemporary African artists.</p>
+                <a href="#">See more artworks</a>
+            </div>
+        </section>
+
+        <section class="more-items">
+            <h2>Discover <span class="more-link"> <a href="https://actualite.cd/index.php/category/culture">More...</a></span></h2>
+            <hr />
+            <div class="items-grid" id="discover-items"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-top">
+            <img src="images/logo.svg" alt="logo" />
+            <div class="footer-nav">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Gallery</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Kiese | <a href="references.html">References</a> | <a href="#">Privacy</a> | <a href="#">Terms</a></p>
+        </div>
+    </footer>
+
+    <script src="scripts/home.js"></script>
+    <script src="scripts/menu.js"></script>
+
+</body>
+
+</html>

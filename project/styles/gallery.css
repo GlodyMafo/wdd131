@@ -1,0 +1,94 @@
+/* Base */
+/* body {
+    background-color: #fefaf6;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  } */
+  
+  /* h1, h2 {
+    font-family: Georgia, serif;
+    color: #5a3e2b;
+  } */
+  
+  /* header {
+    background-color: #fefaf6;
+    text-align: center;
+    padding: 2rem 1rem 1rem;
+  } */
+
+  h1 {
+    font-weight: 600;
+    font-size: clamp(2.5rem, 8vw, 80px); 
+    margin: 0;
+    text-align: center;
+    padding-top: 15px;
+  }
+
+  .gallery-page{
+    padding-block: 2rem;
+    font-size: 1.25rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .gallery-intro {
+    text-align: center;
+    margin: 1rem auto;
+    max-width: 700px;
+    padding: 0 1rem;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .art-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .art-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }
+  
+  .art-card h2 {
+    font-size: 1.25rem;
+    margin: 0.75rem 0 0.5rem;
+  }
+  
+  .art-card p {
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .art-card span {
+    display: block;
+    font-style: italic;
+    margin-bottom: 0.75rem;
+  }
+  
+  .contact-btn {
+    background-color: #d4a373;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-btn:hover {
+    background-color: #b87642;
+  }
+  
+  

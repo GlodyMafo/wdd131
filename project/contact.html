@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us | Kiese</title>
+  <link rel="stylesheet" href="styles/contact.css">
+  <link rel="stylesheet" href="styles/home.css">
+  <link rel="stylesheet" href="styles/menu-large.css" />
+  <link rel="stylesheet" href="styles/menu.css" />
+</head>
+<body>
+
+  <header>
+    <img src="images/logo.svg" alt="logo" class="logo" />
+    <a id="menu" href="#"></a>
+    <nav class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+  <h1>Contact Us</h1>
+  <p>Have a question, suggestion, or would like to collaborate?
+    <br>We’re happy to hear from you with joy and care.</p>
+
+  <section class="container">
+    <div class="contact-form">
+      <h2>Send Us a Message</h2>
+      <form action="#" method="POST">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+
+        <button type="submit" class="btn-submit">Send</button>
+      </form>
+    </div>
+
+    <div class="contact-info">
+      <h2>Other Ways to Reach Us</h2>
+      <p>📧 Email: <a href="mailto:contact@kiese.cd" style="color: var(--color-accent); text-decoration: underline;">contact@kiese.cd</a></p>
+      <p>📞 Phone: +243 000 000 000</p>
+      <p>📍 Address: Artisan Avenue, Kinshasa, DRC</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-top">
+      <img src="images/logo.svg" alt="logo" />
+      <div class="footer-nav">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Gallery</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Kiese | <a href="references.html">References</a> | <a href="#">Privacy</a> | <a href="#">Terms</a></p>
+    </div>
+  </footer>
+  <script src="scripts/menu.js"></script>
+
+</body>
+</html>
